@@ -37,12 +37,11 @@ class SinglyLinkedList:
             current_node = self.head
             prev_node = None
             while current_node:
-
-                prev_node = self.head
-                prev_node.next = None
-                following_node = current_node
-                following_node.next = prev_node
-                self.head =following_node
+                next_node = current_node.next
+                current_node.next = prev_node
+                prev_node=current_node
+                current_node = next_node
+            self.head = prev_node
 
 
     def remove_data(self, data):
