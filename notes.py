@@ -25,3 +25,12 @@
     # Binary search tree- everything on right is bigger than on left
     # balanced tree - branches are not signficantly longer or more branched
         ## otherwise can degrade to linear performance
+
+# Graphs
+    # node - bit of data
+    # edges - show connection between nodes
+    # arrows - show flow
+    # unweighted - relationship exists, but does not show weight like cost/distance/etc
+    # adjacency matrix- row and column represent node from graph, value inside signifies presence of connection between node (binary- 0,1)
+    # adjacency list - node is represented in first column and then connected nodes are displayed in given row for node 
+
